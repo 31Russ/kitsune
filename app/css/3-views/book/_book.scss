@@ -1,0 +1,261 @@
+#book-container {
+    .book-title {
+        h4 {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .novel-wrapper {
+            display: flex;
+        }
+        .book-columns {
+            box-shadow: var(--shadow);
+        }
+        .chapter-list {
+            border-top: 1px solid #e6e6e6;
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+    }
+    .admin-panel {
+        margin-bottom: 20px;
+        a {
+            margin-right: 10px;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+            i {
+                margin-right: 3px;
+            }
+        }
+    }
+    .section-book {
+        .novel-image {
+            img {
+                margin-bottom: 10px;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+        .novel-text {
+            .rating {
+                img {
+                    width: 20px;
+                    position: relative;
+                    top: 5px;
+                    margin-left: 5px;
+                }
+                float: right;
+            }
+            .info {
+                padding-top: 50px;
+                li {
+                    margin-top: 10px;
+                    border-bottom: 1px solid #e6e6e6;
+                }
+                span {
+                    float: right;
+                    color: lightslategray;
+                    font-size: 0.85rem;
+                }
+            }
+        }
+        .additional-info {
+            p {
+                margin-bottom: 10px;
+            }
+            h4 {
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+        }
+        .latest-post {
+            .post-body {
+                display: flex;
+                justify-content: space-between;
+                .date {
+                    flex: 1;
+                }
+                .author {
+                    flex: 2;
+                }
+            }
+        }
+    }
+    #side-info {
+        margin-top: 91px;
+        .side-info {
+            position: relative;
+            top: -2px;
+            box-shadow: var(--shadow);
+            padding: 1rem;
+            .title-1 {
+                font-weight: 700;
+            }
+            .title-1-desc {
+                border-bottom: 1px solid #333;
+                margin-bottom: 10px;
+            }
+            .genre-cat {
+                border-bottom: 1px solid #333;
+                margin-bottom: 10px;
+                a {
+                    margin-right: 5px;
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+    .section-info {
+        background-color: white;
+        padding: 3rem 1.5rem;
+    }
+    .chapter-list {
+        h4 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+    #chapters {
+        font-size: 0.9rem;
+        vertical-align: middle;
+        .table-body {
+            td {
+                vertical-align: bottom;
+                line-height: 3;
+            }
+            td.completion {
+                text-align: center;
+            }
+        }
+        .read-btn {
+            width: 50px;
+            height: 20px;
+            vertical-align: middle;
+        }
+        .th-status,
+        .th-date,
+        .th-ready {
+            cursor: help;
+        }
+        .th-ready {
+            text-align: center;
+        }
+    }
+    .table-cta-btn {
+        float: right;
+        a {
+            margin-left: 10px;
+        }
+        i {
+            margin-right: 5px;
+        }
+    }
+    .comments {
+        margin-top: 2rem;
+        h4 {
+            margin-bottom: 10px;
+            font-size: 1.1rem
+        }
+        i {
+            margin-right: 5px;
+        }
+    }
+    .comment-list {
+        margin-top: 1rem;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    .thank-author {
+        h4 {
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+        margin-top: 20px;
+        input {
+            max-width: 50%;
+        }
+        .control input {
+            border-radius: 10px;
+        }
+        a {
+            height: 30px;
+            margin-left: 10px;
+            top: -3px;
+        }
+    }
+}
+
+.translators-table {
+    th.versions-translated,
+    td.versions-translated {
+        text-align: center;
+    }
+    td.rating-table,
+    td.rating-global {
+        text-align: center;
+    }
+    th.rating-table,
+    th.rating-global {
+        text-align: center;
+    }
+    span.owner {
+        color: hotpink;
+    }
+    span.moderator {
+        color: deepskyblue;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #side-info {
+        margin-top: 0;
+        section {
+            padding: 0rem;
+        }
+    }
+    .translators-table {
+        font-size: 0.85rem;
+    }
+    #book-container #side-info .side-info {
+        top: -80px;
+    }
+    #book-container .section-book .novel-text .rating {
+        float: none;
+        text-align: center;
+    }
+    .novel-image {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section-book .latest-post .post-body {
+        font-size: 0.84rem;
+        .date,
+        .author,
+        .comments {
+            flex: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #book-container .table-cta-btn a {
+        font-size: 0.8rem;
+    }
+    #book-container .table-cta-btn {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1192px) {
+    .novel-btn {
+        font-size: 0.7rem
+    }
+    #book-container .admin-panel a {
+        font-size: 0.8rem;
+    }
+}

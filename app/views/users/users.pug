@@ -1,0 +1,83 @@
+section#book.push-top-md
+    .container#book-container
+        .columns
+            .column.is-12
+                    .book-tabs
+                    .column
+                        .tabs(data-bulma='tabs')
+                            ul
+                                li.is-active
+                                    a(data-tab='#tab1') New
+                                li
+                                    a(data-tab='#tab2') Online
+                                li
+                                    a(data-tab='#tab3') Popular
+                    .columns
+                        section#tab1.section.new-users
+                            .new-users-wrap
+                                .disscusion-body
+                                    .disscusion-list
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                    .user-pages.push-top-md
+                                        nav.pagination#user-pages
+                                            a.pagination-previous Previous
+                                            a.pagination-next Next Page
+                                            ul.pagination-list
+                                                li
+                                                    a.pagination-link 1
+                                                li
+                                                    a.pagination-link 2
+                                                li
+                                                    a.pagination-link 3
+                                                li
+                                                    span.pagination-elipsis &hellip;
+                                                li
+                                                    a.pagination-link 9
+                        section#tab2.section.online-users
+                                .disscusion-body
+                                    .disscusion-list
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                    .user-pages.push-top-md
+                                        nav.pagination#user-pages
+                                            a.pagination-previous Previous
+                                            a.pagination-next Next Page
+                                            ul.pagination-list
+                                                li
+                                                    a.pagination-link 1
+                                                li
+                                                    a.pagination-link 2
+                                                li
+                                                    a.pagination-link 3
+                                                li
+                                                    span.pagination-elipsis &hellip;
+                                                li
+                                                    a.pagination-link 9
+                        section#tab3.section.popular-users
+                                .disscusion-body
+                                    .disscusion-list
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                        include ../comments-disscusion/single-disscusion.pug
+                                    .user-pages.push-top-md
+                                        nav.pagination#user-pages
+                                            a.pagination-previous Previous
+                                            a.pagination-next Next Page
+                                            ul.pagination-list
+                                                li
+                                                    a.pagination-link 1
+                                                li
+                                                    a.pagination-link 2
+                                                li
+                                                    a.pagination-link 3
+                                                li
+                                                    span.pagination-elipsis &hellip;
+                                                li
+                                                    a.pagination-link 9

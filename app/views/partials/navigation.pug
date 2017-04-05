@@ -1,0 +1,34 @@
+section#nav-top
+    nav.nav
+        a.nav-item(href="#")
+            img.logo(src="./img/fox.svg", alt="Logo")
+        .nav-left
+            a.active-link.nav-item.is-hidden-mobile(href="./novels.html") Novels
+            a.nav-item(href="#") Abandoned
+            a.nav-item(href="#") Users
+            a.nav-item(href="#") Blog
+        
+        .nav-right.is-hidden-mobile
+            .nav-item
+                a.login(href="#") Login
+            .nav-item
+                a.register.btn.btn--border.btn--primary.btn--animated(href="#") Register
+    .mobile-nav-menu.is-very-hidden
+        input#burger(type="checkbox")
+        label(for="burger")
+            span
+            span
+            span
+        nav.mobile-nav
+            img.logo(src="./img/fox.svg", alt="Logo")
+            ul
+                li
+                    a Abandoned
+                li
+                    a Users
+                li
+                    a Blog
+                li
+                    a.login(href="#") Login 
+                li
+                    a.btn-nav-menu-register.register.btn.btn--border.btn--primary.btn--animated(href="#") Register

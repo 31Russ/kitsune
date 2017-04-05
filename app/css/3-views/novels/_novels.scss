@@ -1,0 +1,95 @@
+// .novels-body {
+//     margin-top: 3rem;
+//     padding: 6px 15px 15px;
+//     border-bottom: 1px solid #ccc;
+//     border-top: 1px solid #ccc;
+//     margin-bottom: -1px;
+//     border: 1px solid #e6e6e6;
+//     box-shadow: 0 4px 16px 1px #ccc;
+// }
+.sort {
+    margin-top: 5rem;
+    a {
+        margin-left: 10px;
+    }
+    margin-top: 3rem;
+    padding: 6px 15px 15px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-bottom: -1px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 16px 1px #ccc;
+}
+
+.active-sort {
+    color: deeppink;
+    font-weight: 700;
+}
+
+.novel-title,
+.novel-description {
+    padding-left: 10px;
+}
+
+.single-novel {
+    margin-top: 1rem;
+    padding: 6px 15px 15px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-bottom: -1px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 16px 1px #ccc;
+}
+
+.novel-content {
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+    .novel-img {
+        width: 120px;
+        display: table-cell;
+        vertical-align: top;
+        .rating {
+            display: inline-flex;
+            align-items: center;
+            img {
+                width: 25px;
+            }
+            span {
+                margin-left: 5px;
+                margin-top: 2px;
+                vertical-align: top;
+            }
+        }
+    }
+    .novel-title {
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+    .genre {
+        margin-top: 10px;
+        a {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: cadetblue;
+            border-radius: 20px;
+            padding: 2px 8px;
+            font-size: 0.85rem;
+            color: #fff;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    .novel-description {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sort {
+        font-size: 0.85rem;
+    }
+}

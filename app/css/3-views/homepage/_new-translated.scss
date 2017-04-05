@@ -1,0 +1,99 @@
+.new-translated-body {
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0 4px 16px 1px #ccc;
+}
+
+.single-update {
+    padding: 6px 15px 15px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-bottom: -1px;
+    border: 1px solid #e6e6e6;
+    .top-info {
+        margin-bottom: 10px;
+        display: table;
+        width: 100%;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 5px;
+        .info-top-left,
+        .info-top-right {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .info-top-left {
+            img {
+                width: 35px;
+                border-radius: 50%;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            span {
+                margin-left: 5px;
+                font-size: 0.8rem;
+            }
+        }
+        .info-top-right {
+            text-align: end;
+            font-size: 0.8rem;
+        }
+    }
+    .content {
+        width: 100%;
+        display: table;
+        .content-cover {
+            width: 120px;
+            img {
+                border: 0.5px solid rgba(0, 0, 0, 0.7);
+            }
+            display: table-cell;
+            vertical-align: top;
+        }
+        .content-description {
+            padding-left: 10px;
+            display: table-cell;
+            vertical-align: top;
+            .content-description-title {
+                margin-bottom: 5px;
+                font-size: 0.95rem;
+                font-weight: 700;
+            }
+            .content-description-part {
+                font-size: 0.75rem;
+            }
+        }
+        .content-rating {
+            display: table-cell;
+            vertical-align: top;
+            text-align: right;
+            .rating {
+                .rating-emoji {
+                    img {
+                        width: 30px;
+                    }
+                }
+                .rating-description {
+                    font-size: 0.85rem;
+                    color: #9da0a5;
+                }
+            }
+        }
+    }
+}
+
+.section-info {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:550px) {
+    .single-update .content .content-cover {
+        width: 60px;
+    }
+    .single-update .content .content-rating .rating .rating-emoji img {
+        width: 20px;
+    }
+    .single-update .content .content-rating .rating .rating-description {
+        font-size: 0.65rem;
+    }
+}

@@ -1,0 +1,48 @@
+section#profile
+    .container
+        .columns
+        .column
+          .tabs(data-bulma='tabs')
+            ul
+              li.is-active
+                a(data-tab='#tab1') Profile
+              li
+                a(data-tab='#tab2') Translations
+              li
+                a(data-tab='#tab3') Balance
+        .columns
+            .column
+            section#tab1.section
+                .profile-tab
+                    .profile-wrap
+                        .profile-img
+                            img(src="./img/5.jpg", alt="")
+                            .profile-rating
+                            a.button.is-primary Edit Profile
+                        .profile
+                            h4 Alisa
+                            h4 Rating: 312
+            section#tab2.section
+                .translate-tab
+                    .translate-wrap
+                        .translate-info
+                            h4 Particiaptes in #[span 0] translations
+                        .translate-content
+                            .info
+                                a(href="") Novel
+                                a(href="") Translated versions
+                                a(href="") Raiting
+                                a(href="") Average rating
+
+            section#tab3.section
+                .balance-tab
+                    .balance-wrap
+                        .balance-info
+                            h4 Balance: #[span $0]
+                            a.button.is-primary Top Up Balance
+                            a.button.is-primary Withdraw
+                        .balance-history
+                            .info
+                                a(href="") Operation
+                                a(href="") Ammount
+                                a(href="") Date

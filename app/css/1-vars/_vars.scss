@@ -1,0 +1,46 @@
+:root {
+    --main-nav: #454B52;
+    --main-bg-color: #ECECEC;
+    --secondary-font-color: #eff;
+    --font-main: 'Lato', sans-seif;
+    --font-copy: 'Roboto Slab', serif;
+    --body-color: #ececec;
+    --shadow: 0 4px 16px 1px #ccc;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: #ececec;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: var(--main-font-color);
+}
+
+.nav-toggle span {
+    background-color: red;
+}
+
+#nav-toggle-state {
+    display: none;
+}
+
+#nav-toggle-state:checked~.nav-menu {
+    display: block;
+}
