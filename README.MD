@@ -10,8 +10,6 @@ it is bad UI/UX and would irittate living hell out of user. Using sweet-modal an
 
 Pulling data from selection is bad idea and kinda arhaic and hardly done with jquery, use React instead.
 
-P.S.S I do not know how anyone uses bootstrap it is simply impossible to keep track of everything, I did not even bother documenting anything i just wanted it to work.
-
 I excluded node_modules for obvious reasons.
 
 Regards,
