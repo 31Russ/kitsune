@@ -6,10 +6,8 @@
 9. book blog - http://www.awesomescreenshot.com/image/2357769/b9a3dd6b6f5b477c1e042943f6a37f90 [DONE]
 19. favorites page - http://www.awesomescreenshot.com/image/2357842/f98d558e860cf70ed5322a822f464be9 [DONE]
 14. Users page - http://www.awesomescreenshot.com/image/2357794/7bd611e4cb6637e980cb2714d742d1c9 [DONE]
-15. Add novel - http://www.awesomescreenshot.com/image/2357818/d488968c10dc8dc6c3dfb74c14eff26a [DONE]
 16. Permissions page - http://www.awesomescreenshot.com/image/2357819/5899e4ed39ac606be39ef5c63be13f70 [DONE]
-17. login - http://www.awesomescreenshot.com/image/2357826/196973efa4f1012d61608159cd6fa538 [WiP]
-18. registration - http://www.awesomescreenshot.com/image/2357829/b1381d188dce6f61aa9d4836885cc001 [WiP]
+
 -----------------------------------------------------------------------------------------------------------------------
 
 3. blog_colective - http://www.awesomescreenshot.com/image/2357745/3878f6b4003cf6181c2ed3a737510b0b
@@ -26,6 +24,13 @@ This page take be extra carfull as all the icons there are clickable. It better 
 12. Chapter Editing page - http://www.awesomescreenshot.com/image/2357784/e3b673ec78ac02402a726d1d4e6ac70b
 13. Reading page - http://www.awesomescreenshot.com/image/2357789/632e4cc96fd94151a32ade5c8c5b01cc
 For reading page take this page for reference https://author.today/reader/6340/27104
+
+17. login - http://www.awesomescreenshot.com/image/2357826/196973efa4f1012d61608159cd6fa538 [WiP]
+18. registration - http://www.awesomescreenshot.com/image/2357829/b1381d188dce6f61aa9d4836885cc001 [WiP]
+15. Add novel - http://www.awesomescreenshot.com/image/2357818/d488968c10dc8dc6c3dfb74c14eff26a [DONE]
+
+
++ small tweaks here and there to finish template.
 
 
 
